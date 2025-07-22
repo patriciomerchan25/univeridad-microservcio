@@ -8,7 +8,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("localhost:8080/api/universidades")
+@RequestMapping("/api/universidades")
 public class UniversidadController {
 
     @Autowired
